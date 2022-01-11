@@ -1,0 +1,164 @@
+:root {
+  --background-main: linear-gradient(270deg, #00e6e3 2.73%, #00ff68 100%);
+  --white: #ffffff;
+  --black: #0e0e0e;
+}
+
+* {
+  transition: 0.3s ease;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--black);
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.text-white {
+  cursor: pointer;
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.text-dark {
+  color: var(--black);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.navbar {
+  padding: 1rem 0;
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+}
+
+.nav-btn {
+  padding: 0.2rem 1rem;
+  margin: 0.5rem;
+}
+
+.menu-hidden {
+  display: none;
+}
+
+.menu-show {
+  display: flex;
+}
+
+.nav-btn:hover {
+  box-shadow: 0px 0px 5px 2px rgba(1, 255, 47, 0.5);
+  border-radius: 15px;
+}
+
+.section-welcome {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.middle-section {
+  width: 100%;
+}
+
+.middle-section .call-to-action {
+  font-size: 40px;
+}
+
+.benefits-section {
+  margin-top: 10rem;
+  padding: 10rem 0;
+}
+
+.benefits-section .benefits-word {
+  background: var(--background-main);
+  color: var(--black);
+  padding: 0.3rem;
+  font-weight: 800;
+}
+
+.benefits-carrousel {
+  display: flex;
+  margin: 5rem 0;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.benefits-component {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.benefits-component p {
+  font-size: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.thanks-section {
+  margin: 20rem 0;
+  color: var(--white);
+  text-align: center;
+}
+
+.thanks-section strong {
+  background: var(--background-main);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.instagram-info {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.instagram-info .to-know {
+  background: var(--background-main);
+  border-radius: 50px;
+  color: var(--black);
+  font-weight: bold;
+  margin: 0 1.5rem;
+  padding: 0.5rem 4rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 0;
+  border-top: 0.5px solid gray;
+}
+
+.btn-login {
+  background: var(--background-main);
+  color: var(--black);
+  margin: 1rem 1.5rem !important;
+  padding: 0.5rem 5rem !important;
+}
+
+.btn-google {
+  color: var(--black);
+  margin: 0rem 1.5rem !important;
+  padding: 0.5rem 1.2rem !important;
+}
